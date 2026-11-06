@@ -1,0 +1,57 @@
+# ==================================
+# ObsidianDeck - Python
+# ==================================
+
+# Cache e arquivos temporários do Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.log
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+ENV/
+
+# Variáveis de ambiente e segredos
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Build e executáveis (PyInstaller)
+build/
+dist/
+*.spec
+
+# Configurações locais do aplicativo
+manager_config.json
+!manager_config.example.json
+
+# Backups e dados gerados
+backups/
+*.zip
+*.bak
+*.tmp
+
+# Arquivos de IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arquivos temporários de editores
+*.swp
+*.swo
+*~
